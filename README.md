@@ -1,103 +1,86 @@
-<img width="850" src="https://github.com/DaniSTexe/laika/blob/main/sources/Claro.JPG"></a>
-# Título del Proyecto
+# Cansat Laika
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_CanSat autónomo que mide un perfil atmosférico y transmite las variables e imágenes desde la estratosfera._
 
-## Comenzando 🚀
+## Mockup y maquetación 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_En este repositorio se presentan los dos mockups y su respectiva maquetación en python._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+**Oscuro:**
+<a>
+<img width="850" src="https://github.com/DaniSTexe/laika/blob/main/sources/Claro.JPG">
+</a>
 
+**Claro:**
+<a>
+<img width="850" src="https://github.com/DaniSTexe/laika/blob/main/sources/Oscuro.JPG">
+</a>
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_1) Python 3.7.9_
+
+_**Para Windows**: Anaconda_
+    
+_2) Entorno virtual_
+
+_En el terminal de anaconda lo puede crear usando_
 
 ```
-Da un ejemplo
+conda create -n laika python=3.7.9
 ```
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Despues de tener el entorno virtual listo_
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
+_En el powershell de anaconda ingrese_
 
 ```
-hasta finalizar
+activate laika
+cd {$path}
+conda install pip
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+_Ahora instale los requerimientos_
 
 ```
-Da un ejemplo
+pip install -r requirements
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
+_Compruebe la instalación codificando_
+```
+python MAIN.py
+```
+_Debería aparecer la interfaz en el tema oscuro_
 
-_Explica que verifican estas pruebas y por qué_
+
+## Cambio de tema ⚙️
+
+_Si quiere la interfaz en el tema claro en el archivo MAIN.py linea 6_ 
 
 ```
-Da un ejemplo
+from oscuro import *
 ```
 
-## Despliegue 📦
+_Modifique_ 
 
-_Agrega notas adicionales sobre como hacer deploy_
+```
+from claro import *
+```
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+* [Python](https://docs.python.org/3/) - Lenguaje principal
+* [Qt-Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html) - Herramienta para la creación de la interfaz
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
-## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+## Documentaicón del proyecto 📖
 
 ## Autores ✒️
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
-
+* **Oscar Olejua** - *Diseño y maquetación* - [Daniexe](https://github.com/DaniSTexe)
