@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="source">
+    <file>sources/altitud.JPG</file>
+    <file>sources/blanca2.JPG</file>
+    <file>sources/colombian map.webp</file>
+    <file>sources/gps.png</file>
+    <file>sources/graficas_azulk.JPG</file>
+    <file>sources/icons8-alert-96 (1).png</file>
+    <file>sources/icons8-info-128 (2).png</file>
+    <file>sources/icons8-ok-144.png</file>
+    <file>sources/info_white.png</file>
+    <file>sources/layca_image.jpg</file>
+    <file>sources/logo_azul_4.png</file>
+    <file>sources/logo_azul2.png</file>
+    <file>sources/logo_azul3.png</file>
+    <file>sources/logo_azul5.png</file>
+    <file>sources/logo_dog2.png</file>
+    <file>sources/map_colombia.png</file>
+    <file>sources/logo_azul.png</file>
+  </qresource>
+</RCC>
