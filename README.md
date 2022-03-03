@@ -45,7 +45,7 @@ conda install pip
 _Ahora instale los requerimientos_
 
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 _Compruebe la instalación codificando_
