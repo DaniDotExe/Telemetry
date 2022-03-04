@@ -18,7 +18,7 @@ class MainWindow(QMainWindow):
         self.ui = Ui_Form() 
         self.ui.setupUi(self)
         self.setWindowTitle("Laika")
-        #self.setWindowIcon(QIcon("./imagenes/logo.png"))
+        self.setWindowIcon(QIcon("./sources/layca_image.jpg"))
         self.viewTemperature()
 
     def viewTemperature(self):
