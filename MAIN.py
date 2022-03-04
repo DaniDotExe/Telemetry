@@ -2,6 +2,7 @@ import sys
 
 from PyQt5.QtCore import QSize, Qt
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton
+from PyQt5.QtGui import QImage, QPixmap, QIcon
 
 from oscuro import *
 
@@ -12,6 +13,7 @@ class MainWindow(QMainWindow):
         self.ui = Ui_Form() 
         self.ui.setupUi(self)
         self.setWindowTitle("Laika")
+        self.setWindowIcon(QIcon("./sources/layca_image.jpg"))
 
 
 if __name__ == '__main__':
