@@ -8,12 +8,12 @@ _En este repositorio se presentan los dos mockups y su respectiva maquetación e
 
 **Oscuro:**
 <a>
-<img width="850" src="https://github.com/DaniSTexe/laika/blob/main/sources/Oscuro.JPG">
+<img width="850" src="https://github.com/DaniSTexe/laika/blob/main/sources/oscuro.png">
 </a>
 
 **Claro:**
 <a>
-<img width="850" src="https://github.com/DaniSTexe/laika/blob/main/sources/Claro.JPG">
+<img width="850" src="https://github.com/DaniSTexe/laika/blob/main/sources/claro.png">
 </a>
 
 ### Pre-requisitos 📋
