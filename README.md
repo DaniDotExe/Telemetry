@@ -74,10 +74,9 @@ from claro import *
 * [Python](https://docs.python.org/3/) - Lenguaje principal
 * [Qt-Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html) - Herramienta para la creación de la interfaz
 
-
-
-
 ## Documentaicón del proyecto 📖
+
+* [Documento](https://github.com/DaniSTexe/laika/blob/main/Documento.pdf)
 
 ## Autores ✒️
 
