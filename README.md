@@ -81,6 +81,4 @@ from claro import *
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
 * **Oscar Olejua** - *Diseño y maquetación* - [Daniexe](https://github.com/DaniSTexe)
