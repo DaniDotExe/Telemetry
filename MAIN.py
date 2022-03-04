@@ -11,7 +11,7 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.ui = Ui_Form() 
         self.ui.setupUi(self)
-        self.setWindowTitle("My App")
+        self.setWindowTitle("Laika")
 
 
 if __name__ == '__main__':
