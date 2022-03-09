@@ -13,6 +13,7 @@ import collections
 from matplotlib.lines import Line2D
 import matplotlib.animation as animation
 import numpy as np 
+import math
 #from serial import Serial
 
 import time
@@ -113,6 +114,8 @@ class MainWindow(QMainWindow):
             pixmap = QPixmap('imagen.png')
             #Actualizamos la imagen
             self.ui.LIVE_14.setPixmap(pixmap)
+            self.ui.Titlle_124.setText(f'Altitud: {datos_sensor/2} [m]')
+            self.ui.Titlle_125.setText(f'Temperatura: {datos_sensor} [°C]')
         except:
             pass 
 
