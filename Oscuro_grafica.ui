@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1288</width>
-    <height>475</height>
+    <width>1289</width>
+    <height>471</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -87,8 +87,8 @@ border-radius: 10px;
   <widget class="QLabel" name="LIVE_12">
    <property name="geometry">
     <rect>
-     <x>640</x>
-     <y>120</y>
+     <x>30</x>
+     <y>300</y>
      <width>271</width>
      <height>151</height>
     </rect>
@@ -121,8 +121,8 @@ border-radius: 10px;
   <widget class="QLabel" name="Titlle_16">
    <property name="geometry">
     <rect>
-     <x>680</x>
-     <y>120</y>
+     <x>70</x>
+     <y>300</y>
      <width>151</width>
      <height>31</height>
     </rect>
@@ -152,7 +152,7 @@ background-color: transparent</string>
   <widget class="QLabel" name="Titlle_39">
    <property name="geometry">
     <rect>
-     <x>380</x>
+     <x>80</x>
      <y>120</y>
      <width>151</width>
      <height>31</height>
@@ -183,7 +183,7 @@ background-color: transparent</string>
   <widget class="QLabel" name="LIVE_140">
    <property name="geometry">
     <rect>
-     <x>330</x>
+     <x>30</x>
      <y>120</y>
      <width>271</width>
      <height>151</height>
@@ -217,8 +217,8 @@ border-radius: 10px;
   <widget class="QLabel" name="Titlle_53">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>120</y>
+     <x>390</x>
+     <y>130</y>
      <width>151</width>
      <height>31</height>
     </rect>
@@ -248,10 +248,10 @@ background-color: transparent</string>
   <widget class="QLabel" name="LIVE_15">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>630</x>
      <y>120</y>
      <width>271</width>
-     <height>151</height>
+     <height>331</height>
     </rect>
    </property>
    <property name="autoFillBackground">
@@ -277,143 +277,13 @@ border-radius: 10px;
    </property>
    <property name="alignment">
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="LIVE_16">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>300</y>
-     <width>271</width>
-     <height>151</height>
-    </rect>
-   </property>
-   <property name="autoFillBackground">
-    <bool>false</bool>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color:black;
-background-color: rgb(38, 42, 60);
-border-radius: 10px;
-</string>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::NoFrame</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Plain</enum>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="scaledContents">
-    <bool>true</bool>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="Titlle_83">
-   <property name="geometry">
-    <rect>
-     <x>80</x>
-     <y>300</y>
-     <width>151</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Trebuchet MS</family>
-     <pointsize>12</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color:white;
-background-color: transparent</string>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::NoFrame</enum>
-   </property>
-   <property name="text">
-    <string>Aceleración [m²/s]</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="LIVE_17">
-   <property name="geometry">
-    <rect>
-     <x>330</x>
-     <y>300</y>
-     <width>271</width>
-     <height>151</height>
-    </rect>
-   </property>
-   <property name="autoFillBackground">
-    <bool>false</bool>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color:black;
-background-color: rgb(38, 42, 60);
-border-radius: 10px;
-</string>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::NoFrame</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Plain</enum>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="scaledContents">
-    <bool>true</bool>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="Titlle_94">
-   <property name="geometry">
-    <rect>
-     <x>380</x>
-     <y>300</y>
-     <width>151</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Trebuchet MS</family>
-     <pointsize>12</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color:white;
-background-color: transparent</string>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::NoFrame</enum>
-   </property>
-   <property name="text">
-    <string>Orientación</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLabel" name="Titlle_112">
    <property name="geometry">
     <rect>
-     <x>680</x>
-     <y>300</y>
+     <x>690</x>
+     <y>130</y>
      <width>151</width>
      <height>31</height>
     </rect>
@@ -478,7 +348,7 @@ border-radius: 10px;
   <widget class="QLabel" name="LIVE_20">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>30</x>
      <y>20</y>
      <width>1231</width>
      <height>71</height>
@@ -702,9 +572,9 @@ background-color: transparent</string>
   <widget class="QLabel" name="Titlle_129">
    <property name="geometry">
     <rect>
-     <x>670</x>
+     <x>650</x>
      <y>50</y>
-     <width>201</width>
+     <width>241</width>
      <height>31</height>
     </rect>
    </property>
@@ -1005,7 +875,7 @@ background-color: transparent;
   <widget class="QLabel" name="Titlle_181">
    <property name="geometry">
     <rect>
-     <x>855</x>
+     <x>880</x>
      <y>55</y>
      <width>41</width>
      <height>21</height>
@@ -1142,9 +1012,9 @@ background-color: transparent;
    <property name="geometry">
     <rect>
      <x>630</x>
-     <y>300</y>
+     <y>120</y>
      <width>271</width>
-     <height>151</height>
+     <height>331</height>
     </rect>
    </property>
    <property name="autoFillBackground">
@@ -1175,9 +1045,9 @@ border-radius: 10px;
   <widget class="QLabel" name="LIVE_14">
    <property name="geometry">
     <rect>
-     <x>320</x>
+     <x>30</x>
      <y>140</y>
-     <width>291</width>
+     <width>271</width>
      <height>131</height>
     </rect>
    </property>
@@ -1208,8 +1078,8 @@ border-radius: 10px;
   <widget class="QLabel" name="LIVE_18">
    <property name="geometry">
     <rect>
-     <x>640</x>
-     <y>140</y>
+     <x>30</x>
+     <y>320</y>
      <width>271</width>
      <height>131</height>
     </rect>
@@ -1242,78 +1112,10 @@ border-radius: 10px;
   <widget class="QLabel" name="LIVE_23">
    <property name="geometry">
     <rect>
-     <x>630</x>
-     <y>320</y>
-     <width>271</width>
-     <height>131</height>
-    </rect>
-   </property>
-   <property name="autoFillBackground">
-    <bool>false</bool>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color:black;
-background-color: rgb(38, 42, 60);
-border-radius: 10px;
-</string>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::NoFrame</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Plain</enum>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="scaledContents">
-    <bool>true</bool>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="LIVE_24">
-   <property name="geometry">
-    <rect>
      <x>330</x>
-     <y>320</y>
+     <y>120</y>
      <width>271</width>
-     <height>131</height>
-    </rect>
-   </property>
-   <property name="autoFillBackground">
-    <bool>false</bool>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color:black;
-background-color: rgb(38, 42, 60);
-border-radius: 10px;
-</string>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::NoFrame</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Plain</enum>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="scaledContents">
-    <bool>true</bool>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="LIVE_25">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>320</y>
-     <width>271</width>
-     <height>131</height>
+     <height>331</height>
     </rect>
    </property>
    <property name="autoFillBackground">
@@ -1344,10 +1146,10 @@ border-radius: 10px;
   <widget class="QLabel" name="LIVE_26">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>140</y>
-     <width>271</width>
-     <height>131</height>
+     <x>340</x>
+     <y>180</y>
+     <width>261</width>
+     <height>231</height>
     </rect>
    </property>
    <property name="autoFillBackground">
@@ -1375,10 +1177,7 @@ border-radius: 10px;
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
    </property>
   </widget>
-  <zorder>LIVE_22</zorder>
   <zorder>LIVE_20</zorder>
-  <zorder>LIVE_17</zorder>
-  <zorder>LIVE_16</zorder>
   <zorder>LIVE_15</zorder>
   <zorder>LIVE_140</zorder>
   <zorder>Titlle_14</zorder>
@@ -1409,13 +1208,10 @@ border-radius: 10px;
   <zorder>LIVE_18</zorder>
   <zorder>Titlle_16</zorder>
   <zorder>LIVE_23</zorder>
-  <zorder>Titlle_112</zorder>
-  <zorder>LIVE_24</zorder>
-  <zorder>Titlle_94</zorder>
-  <zorder>LIVE_25</zorder>
-  <zorder>Titlle_83</zorder>
   <zorder>LIVE_26</zorder>
   <zorder>Titlle_53</zorder>
+  <zorder>LIVE_22</zorder>
+  <zorder>Titlle_112</zorder>
  </widget>
  <resources>
   <include location="source.qrc"/>
