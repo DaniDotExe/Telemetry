@@ -6,15 +6,12 @@ _CanSat autónomo que mide un perfil atmosférico y transmite las variables e im
 
 _En este repositorio se presentan los dos mockups y su respectiva maquetación en python._
 
-**Oscuro:**
+**Laika GUI:**
 <a>
-<img width="850" src="https://github.com/DaniSTexe/laika/blob/main/sources/oscuro.png">
+<img width="850" src="https://github.com/DaniSTexe/Telemetry/blob/main/sources/laika_final.jpg">
 </a>
 
-**Claro:**
-<a>
-<img width="850" src="https://github.com/DaniSTexe/laika/blob/main/sources/claro.png">
-</a>
+
 
 ### Pre-requisitos 📋
 
@@ -50,9 +47,16 @@ pip install -r requirements.txt
 
 _Compruebe la instalación codificando_
 ```
+python diseno.py 
+```
+_Debería aparecer la interfaz sin funcionalidad._
+
+_Y una vez se encuentre creado el enlace de comunicación ejecute_
+
+```
 python MAIN.py
 ```
-_Debería aparecer la interfaz en el tema oscuro_
+
 
 
 
