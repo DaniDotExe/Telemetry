@@ -74,3 +74,4 @@ python MAIN.py
 * **Oscar Olejua** - *Diseño y maquetación* - [Daniexe](https://github.com/DaniSTexe)
 * **Juan Suarez** - *Recepción de datos* - [MrSuaqui](https://github.com/jpsuarezq)
 * **Juan Roman** - *Frontend* - [Sebasroman2](https://github.com/sebasroman2)
+* **Fritz Ariza** - *Backend* 
