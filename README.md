@@ -55,19 +55,6 @@ python MAIN.py
 _Debería aparecer la interfaz en el tema oscuro_
 
 
-## Cambio de tema ⚙️
-
-_Si quiere la interfaz en el tema claro en el archivo MAIN.py linea 6_ 
-
-```
-from oscuro import *
-```
-
-_Modifique_ 
-
-```
-from claro import *
-```
 
 ## Construido con 🛠️
 
@@ -81,3 +68,4 @@ from claro import *
 ## Autores ✒️
 
 * **Oscar Olejua** - *Diseño y maquetación* - [Daniexe](https://github.com/DaniSTexe)
+* **Juan Suarez** - *Recepción de datos* - [MrSuaqui](https://github.com/jpsuarezq)
